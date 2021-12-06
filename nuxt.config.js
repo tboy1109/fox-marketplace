@@ -8,6 +8,10 @@ export default {
 	 ** Nuxt rendering mode
 	 ** See https://nuxtjs.org/api/configuration-mode
 	 */
+  mode: 'static',
+  router: {
+    base: '/nuxt-fox-marketplace/'
+  },
   ssr: false,
   
   target: 'static',
